@@ -1,0 +1,56 @@
+.container{
+  border:1px solid blue;
+  cursor:default;
+  height:450px;
+  margin:0 auto;
+  position:relative;
+  top:50px;
+  width:550px;
+}
+.content{
+  background-color:#eee;
+  height:399px;
+}
+.content .jsnote{
+  color:blue;
+  line-height:90px;
+  text-align:center;
+  height:70px;
+}
+.content .text{
+  font-size:1.2em;
+  height:100px;
+  padding-left:80px;
+  line-height:20px;
+}
+.content .del{
+  bottom:20px;
+  height:30px;
+  position:absolute;
+  right:20px;
+  width:110px;
+}
+.top{
+  height:30px;
+  width:100%;
+}
+.top .title{
+  left:10px;
+  line-height:20px;
+  position:absolute;
+}
+.top .close{
+  color:gray;
+  font-size:24px;
+  line-height:45px;
+  right:0;
+  position:absolute;
+  text-align:center;
+  width:40px;
+}
+.top .close:hover{
+  background-color:red;
+  color:#fff;
+}
+
+

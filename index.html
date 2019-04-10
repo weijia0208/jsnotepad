@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>对话框</title>
+  <link rel="stylesheet" href="./jsnote.css">
+</head>
+<body>
+  <div class="main">
+    <input type="button" value="弹出对话框">
+  </div>
+  <!--
+  <div class="container">
+      <div class="top">
+        <p class="title">关于“记事本”</p>
+        <span class="close">×</span>
+      </div>
+      <div class="content">
+        <h1 class="jsnote">JSNotepad</h1>
+        <hr>
+        <div class="text">
+          <p>作者：佳佳</p>
+          <p>QQ：1002475276</p>
+          <p>仓库地址：<a href="https://github.com/weijia0208/jsnotepad" target="_blank">https://github.com/weijia0208/jsnotepad</a></p>
+        </div>
+        <input type="button" value="确定" class="del">
+      </div>
+  </div>
+  -->
+</body>
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="./jsnote.js"></script>
+<script>
+  $(function(){
+    var $jsBtn = $('input[type="button"]');
+    $jsBtn.click(function(){
+      $jsNote.show();
+    })
+  })
+</script>
+</html>
