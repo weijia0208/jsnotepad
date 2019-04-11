@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>dlg test search</title>
+  <link rel="stylesheet" href="dlg-goto.css">
+  <link rel="icon" href="https://i.wangding.in/favicon.ico" sizes="48x48" type="image/png">
+</head>
+<body>
+<input class="popup" type="button" value="弹出对话框">
+<!--
+<div class="notepad-goto-dlg">
+  <div class="dialogbox">
+    <div class="titlebar">
+      <p>查找</p>
+      <span class="btn-close">×</span>
+    </div>
+    <div class="main">
+      <label class="sec">查找内容(N):</label>
+      <input class="line-num" type="text" autofocus>
+      <input class="btn-goto" type="button" value="查找下一个(F)"><br>
+      <div class="glw">
+        <input type="checkbox">
+        <label >区分大小写</label>
+      </div>
+      <div class="area">
+        <fieldset>
+          <legend>方向</legend>
+          <input type="radio" name="director" value="up">
+          <label>向上</label>
+          <input type="radio" name="director" value="down">
+          <label>向下</label>
+        </fieldset>
+      </div>
+      <input class="btn-cancel" type="button" value="取消">
+    </div>
+  </div>
+</div> 
+-->
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="dlg-goto.js"></script>
+<script>
+  $(function(){
+    $btnPopup = $('input.popup');
+    $btnPopup.click(function(){
+      $dlgGoto.init(); 
+    })
+  })
+</script>
+</body>
+</html>
+

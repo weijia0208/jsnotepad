@@ -1,0 +1,103 @@
+body,html{
+  height:100%;
+  margin:0;
+  padding:0;
+  width:100%
+}
+
+.notepad-goto-dlg{
+  height:100%;
+  left:0;
+  position:absolute;
+  top:0;
+  width:100%;
+}
+
+.notepad-goto-dlg .dialogbox{
+  border:1px solid blue;
+  height:160px;
+  margin:50px auto;
+  position:relative;
+  width:400px;
+}
+
+.notepad-goto-dlg .dialogbox .titlebar{
+  height:30px;
+  left:0;
+  margin:0;
+  position:absolute;
+  top:0;;
+  width:100%;
+}
+.notepad-goto-dlg .dialogbox .titlebar p{
+  margin:5px 5px;
+}
+.notepad-goto-dlg .dialogbox .titlebar .title{
+  left:0;
+  position:absolute;
+  top:0;
+}
+.notepad-goto-dlg .dialogbox .titlebar .btn-close{
+  color:gray;
+  height:30px;
+  position:absolute;
+  right:0;
+  text-align:center;
+  top:0;
+  width:30px;
+
+}
+.notepad-goto-dlg .dialogbox .titlebar .btn-close:hover{
+  background-color:red;
+  color:white;
+}
+
+.notepad-goto-dlg .dialogbox .main{
+  background-color:#eee;
+  height:130px;
+  left:0;
+  position:absolute;
+  top:30px;
+  width:100%;
+}
+
+.notepad-goto-dlg .main .sec{
+  font-size:14px;
+  margin-left:5px;
+  margin-top:20px;
+}
+.notepad-goto-dlg .main .line-num{
+  height:20px;
+  margin-right:5px;
+  margin-top:20px;
+  width:200px;
+}
+.notepad-goto-dlg .main .btn-goto{
+  font-size:12px;
+  height:25px;
+  margin-top:20px;
+  right:5px;
+  width:90px;
+}
+.notepad-goto-dlg .main .glw{
+  float:left;
+  margin-left:5px;
+  margin-top:50px;
+} 
+.notepad-goto-dlg .main .area{
+  float:right;
+  margin-right:105px;
+  margin-top:10px;
+  position:relative;
+}
+.notepad-goto-dlg .main .btn-cancel{
+  float:right;
+  font-size:12px;
+  height:30px;
+  margin-bottom:30px;
+  margin-left:195px;
+  margin-top:10px;
+  position:absolute;
+  width:90px;
+  
+}
