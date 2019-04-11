@@ -1,0 +1,118 @@
+body,html{
+  height:100%;
+  margin:0;
+  padding:0;
+  width:100%
+}
+
+.notepad-goto-dlg{
+  height:100%;
+  left:0;
+  position:absolute;
+  top:0;
+  width:100%;
+}
+
+.notepad-goto-dlg .dialogbox{
+  border:1px solid blue;
+  height:350px;
+  margin:50px auto;
+  position:relative;
+  width:400px;
+}
+
+.notepad-goto-dlg .dialogbox .titlebar{
+  height:30px;
+  left:0;
+  margin:0;
+  position:absolute;
+  top:0;;
+  width:100%;
+}
+.notepad-goto-dlg .dialogbox .titlebar p{
+  margin:5px 5px;
+}
+.notepad-goto-dlg .dialogbox .titlebar .title{
+  left:0;
+  position:absolute;
+  top:0;
+}
+.notepad-goto-dlg .dialogbox .titlebar .btn-close{
+  color:gray;
+  height:30px;
+  position:absolute;
+  right:0;
+  text-align:center;
+  top:0;
+  width:30px;
+
+}
+.notepad-goto-dlg .dialogbox .titlebar .btn-close:hover{
+  background-color:red;
+  color:white;
+}
+
+.notepad-goto-dlg .dialogbox .main{
+  background-color:#eee;
+  height:320px;
+  left:0;
+  position:absolute;
+  top:30px;
+  width:100%;
+}
+.notepad-goto-dlg .main .left{
+  float:left;
+  font-size:12px;
+  margin-left:5px;
+  width:150px;
+}
+.notepad-goto-dlg .main .left #font{
+  width:120px;
+}
+.notepad-goto-dlg .main .mid{
+  float:left;
+  font-size:12px;
+  margin-right:20px;
+  width:100px;
+}
+.notepad-goto-dlg .main .right{
+  font-size:12px;
+  margin-right:5px;
+}
+.notepad-goto-dlg .main .area{
+  margin-left:190px;
+  margin-top:20px;
+  width:200px;
+}
+.notepad-goto-dlg .main .foot{
+  font-size:12px;
+  margin-left:190px;
+  width:200px;
+}
+.notepad-goto-dlg .main .foot p{
+  margin-bottom:5px;
+}
+.notepad-goto-dlg .main #footer{
+  height:25px;
+  width:200px;
+}
+.notepad-goto-dlg .main a{
+  font-size:12px;
+  margin-top:50px;
+  margin-left:5px;
+  position:absolute;
+}
+.notepad-goto-dlg .main .btn-true{
+  height:30px;
+  margin-top:40px;
+  margin-left:190px;
+  position:absolute;
+  width:90px;
+}
+.notepad-goto-dlg .main .btn-cancel{
+  height:30px;
+  margin-top:40px;
+  margin-left:300px;
+  position:absolute;
+  width:90px;
+}
