@@ -1,6 +1,9 @@
 /*exported $jsNote*/
 var $jsNote = (function(){
-  var DOM = '<div class="container">'
+
+  var DOM = ''
+            +'<div>'
+            +'<div class="container">'
             +'<div class="top">'
             +'<p class="title">关于“记事本”</p>'
             +'<span class="close">×</span>'
@@ -15,15 +18,17 @@ var $jsNote = (function(){
             +'</div>'
             +'<input type="button" value="确定" class="del">'
             +'</div>'
+            +'</div>'
             +'</div>';
   
   var $jnp = $(DOM),
       $close = $jnp.find('.close'),
       $del = $jnp.find('.del');
+      
 
   var show = function(){
     $('body').append($jnp);
-
+    $jnp.find('.container').draggable({handle:$jnp.find('.top')});
     $close.click(function(){
       $jnp.remove();
     });
