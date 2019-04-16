@@ -31,7 +31,11 @@
   $(function(){
     $btnPopup = $('input.popup');
     $btnPopup.click(function(){
-      $dlgGoto.init(); 
+      $dlgGoto.init({
+        curLine:1,
+        totalLines:5,
+        gotoHandler:function(e){console.log("goto btn clicked!GOTO %s lines.",e)}
+        }); 
     })
   })
 </script>
