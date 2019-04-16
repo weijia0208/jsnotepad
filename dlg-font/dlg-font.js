@@ -1,5 +1,5 @@
-/*exported $dlgGoto*/
-var $dlgGoto = (function(){
+/*exported $dlgFont*/
+var $dlgFont = (function(){
   var init = function(){
     
     var DOM = ''
