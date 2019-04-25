@@ -1,0 +1,70 @@
+body,html{
+  height:100%;
+  margin:0;
+  padding:0;
+  width:100%
+}
+
+.notepad-menubar{
+  height:20px;
+  left:0;
+  position:absolute;
+  user-select:none;
+  top:0;
+  width:100%;
+}
+.notepad-menubar .titles{
+  padding:0;
+  margin:0;
+}
+.notepad-menubar .menu-title{
+  border:1px solid white;
+  display:inline-block;
+  font-size:0.8em;
+  height:20px;
+  line-height:20px;
+  text-align:center;
+  width:54px;
+}
+.notepad-menubar .menu-title:hover{
+  background-color:#cce8ff;
+  border:1px solid #99d1ff;
+}
+.notepad-menubar .menus{
+  background-color:#f2f2f2;
+  border:1px solid #c2c2c2;
+  box-shadow:5px 5px #a2a2a2;
+  display:inline-block;
+  font-size:0.8em;
+  padding:3px;
+  position:absolute;
+  width:202px;
+  top:7px;
+}
+.notepad-menubar .menu-item {
+  display:block;
+  height:22px;
+  padding-left:34px;
+  position:relative;
+}
+.notepad-menubar .menu-item:hover{
+  background-color:#99d1ff;
+}
+.notepad-menubar .menu-hr{
+  border:1px solid #c2c2c2;
+  display:block;
+  margin:3px 0;
+  height:0px;
+}
+.notepad-menubar .disabled{
+  color:#a2a2a2;
+}
+.notepad-menubar .disabled:hover{
+  background-color:#e2e2e2;
+}
+
+.notepad-menubar .shortcut{
+  position:absolute;
+  right:20px;
+  text-align:right;
+}
